@@ -6,7 +6,7 @@ export const tsup: Options = {
   clean: true,
   dts: true,
   entryPoints: ["src/index.ts"],
-  format: ["cjs", "esm", "iife"],
+  format: ["cjs"],
   minify: isProduction,
-  sourcemap: true,
+  sourcemap: false,
 };
