@@ -1,19 +1,20 @@
 {
-  "name": "typescript-lib",
+  "name": "treeshake-config",
   "version": "0.1.1",
-  "description": "Project template to bootstrap a new TypeScript library",
+  "description": "🔧 Automatic config generation CLI",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nurodev/typescript-lib.git"
+    "url": "https://github.com/nurodev/treeshake-config.git"
   },
-  "homepage": "https://github.com/nurodev/typescript-lib",
-  "bugs": "https://github.com/nurodev/typescript-lib/issues",
+  "homepage": "https://github.com/nurodev/treeshake-config",
+  "bugs": "https://github.com/nurodev/treeshake-config/issues",
   "author": {
     "name": "nurodev",
     "email": "me@nuro.dev",
     "url": "https://nuro.dev"
   },
   "keywords": [
+    "config",
     "typescript"
   ],
   "license": "MIT",
@@ -26,9 +27,9 @@
     "README.md"
   ],
   "scripts": {
-    "dev": "npm run build -- --watch",
+    "dev": "yarn build --watch",
     "build": "rimraf dist && tsup",
-    "build:prod": "cross-env NODE_ENV=production npm run build",
+    "build:prod": "cross-env NODE_ENV=production yarn build",
     "test": "jest"
   },
   "dependencies": {
