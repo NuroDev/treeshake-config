@@ -92,19 +92,3 @@ Lastly, add `*.config.js` to your `.gitignore` file to ignore all generated conf
 # .gitignore
 *.config.js
 ```
-
-### CLI Arguments
-
-If you want to customize how the CLI will function you can either manually add flags when executing the cli, or you can add a `treeshakeConfig` export to your "root" config file.
-
-For example:
-
-```ts
-export const treeshakeConfig = {
-  /**
-   * Path to the root config file
-   * @default `config.js` or `config.js` file in the same directory as the `package.json` file
-   */
-  root: "path/to/root/config.ts",
-};
-```
