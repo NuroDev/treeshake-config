@@ -1,5 +1,2 @@
+export * from "./generate";
 export * from "./types/";
-
-(async () => {
-  console.log("Hello World");
-})();

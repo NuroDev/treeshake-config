@@ -19,7 +19,7 @@
   ],
   "license": "MIT",
   "bin": {
-    "treeshake-config": "./dist/index.js"
+    "treeshake-config": "./dist/bin.js"
   },
   "types": "dist/index.d.ts",
   "files": [
@@ -31,6 +31,8 @@
     "dev": "yarn build --watch",
     "build": "rimraf dist && tsup",
     "build:prod": "cross-env NODE_ENV=production yarn build",
+    "start": "node dist/",
+    "start:bin": "node dist/bin",
     "test": "jest"
   },
   "dependencies": {
