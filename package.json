@@ -32,11 +32,12 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "dev": "yarn build --watch",
     "build": "rimraf dist && tsup",
     "build:prod": "cross-env NODE_ENV=production yarn build",
-    "start": "node dist/",
+    "dev": "yarn build --watch",
+    "postinstall": "treeshake-config",
     "start:bin": "node dist/bin",
+    "start": "node dist/",
     "test": "jest"
   },
   "dependencies": {
