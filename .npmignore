@@ -1,0 +1,4 @@
+.github/
+jest.config.js
+tsconfig.json
+tsup.config.ts
