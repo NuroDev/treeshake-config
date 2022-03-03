@@ -50,6 +50,7 @@
     "dotenv": "^16.0.0",
     "jest": "^27.5.1",
     "rimraf": "^3.0.2",
+    "treeshake-config": "^0.1.1",
     "ts-jest": "^27.1.3",
     "tsup": "^5.11.13",
     "typescript": "^4.6.2"

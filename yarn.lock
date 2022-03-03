@@ -3180,6 +3180,14 @@ tree-kill@^1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
+treeshake-config@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/treeshake-config/-/treeshake-config-0.1.1.tgz#53c5b222deb3f14e088dd6606cc1d0490959b0bd"
+  integrity sha512-qTg5guFFoAx1Yf0FMKP3XunGNEW4hfYj1C0MptRPMiC5vjHVkFjHxNAf/SahJoCySkWxtzwBbleRjKGt6cxibg==
+  dependencies:
+    commander "^9.0.0"
+    unconfig "^0.3.1"
+
 ts-interface-checker@^0.1.9:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
